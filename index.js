@@ -67,15 +67,9 @@ client.on("message", message => {
 })
 
 client.on('guildMemberAdd', member => {
-	client.channels.cache.get("740632604071690281").send(`<@${member.id}> joined the server. \`${member.guild.memberCount}\``)
-	client.channels.cache.get("757300903819608146").setName(`Total Members: ${member.guild.memberCount}`)
+	client.channels.cache.get("720325749193572352").send(`Hey <@${member.id}>, welcome to The Chub Club! Go check out <#722152602065829930> !`)
 	member.roles.add(member.guild.roles.cache.find(role=>role.id=="764786089445556244")) // add member role
 })
-client.on('guildMemberRemove', member => {
-	client.channels.cache.get("740632604071690281").send(`<@${member.id}> left the server. \`${member.guild.memberCount}\``)
-	client.channels.cache.get("757300903819608146").setName(`Total Members: ${member.guild.memberCount}`)
-})
-
 
 client.on("messageReactionAdd", async (reaction, user) => {
 	if (reaction.message.partial) await reaction.message.fetch()
