@@ -68,7 +68,7 @@ client.on("message", message => {
 
 client.on('guildMemberAdd', member => {
 	client.channels.cache.get("720325749193572352").send(`Hey <@${member.id}>, welcome to The Chub Club! Go check out <#722152602065829930> !`)
-	member.roles.add(member.guild.roles.cache.find(role=>role.id=="764786089445556244")) // add member role
+	member.roles.add(member.guild.roles.cache.find(role=>role.id=="722156283037351996")) // add member role
 })
 
 client.on("messageReactionAdd", async (reaction, user) => {
