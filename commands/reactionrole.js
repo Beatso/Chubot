@@ -4,8 +4,8 @@ module.exports = {
 	execute(message, args) {
 		if (message.author.id!="634776327299399721" && message.author.id!="583865257945202699") return
 		const notificationEmbed = {
-			"title": "Get Notification Roles [NOT WORKING YET]",
-			"description": "React to this message with the relevant emojis to be notified for updates to certain packs. If <@775437047367598080> is offline, please click [here](https://chubot.beatso1.repl.co/) to wake it up.",
+			"title": "Get Notification Roles",
+			"description": "React to this message with the relevant emojis to be notified for updates to certain packs. If <@775437047367598080> is offline, please click [here](https://Chubot.beatso1.repl.co/) to wake it up.",
 			"color": 16087843,
 			"fields": [
 				{
