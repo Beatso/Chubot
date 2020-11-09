@@ -2,10 +2,8 @@
 	"prefix": ".",
 	"color": 16087843,
 	"channelIDs": {
-		"communityCreations": "756241870404976741",
-		"creationsDiscussion": "756241898439704618",
-		"joinLeave": "740632604071690281",
-		"getRoles": "740838518116319322",
-		"offTopic": "755112378944979004"
+		"communityCreations": "775426440215920690",
+		"creationsDiscussion": "775426497816035369",
+		"getRoles": "775099645046685737"
 	}
 }
