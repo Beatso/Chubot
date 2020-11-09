@@ -19,7 +19,7 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
 	console.log('bot running')
-	client.user.setActivity("h",{type:"WATCHING"})
+	client.user.setActivity("chubins.tk",{type:"WATCHING"})
 })
 
 client.on('message', message => {
