@@ -12,6 +12,11 @@ module.exports = {
 					"name": "Different Default",
 					"value": "React with <:differentdefault:775100107611439144>",
 					"inline": true
+				},
+				{
+					"name": "pogbot",
+					"value": "React with <:pog:776242461394862131>",
+					"inline": true
 				}
 			]
 		}
