@@ -28,7 +28,7 @@ module.exports = {
 			.then(msg => {
 				msg.edit({ embed: notificationEmbed })
 					.then((msg1) => {
-						// updated message
+						reactionMessage.react("776242461394862131")
 					})
 					.catch(console.error);
 			});
