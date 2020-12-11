@@ -17,6 +17,11 @@ module.exports = {
 					"name": "pogbot",
 					"value": "React with <:pog:776242461394862131>",
 					"inline": true
+				},
+				{
+					"name": "Blog",
+					"value": "React with 📰",
+					"inline": true
 				}
 			]
 		}
@@ -28,7 +33,7 @@ module.exports = {
 			.then(msg => {
 				msg.edit({ embed: notificationEmbed })
 					.then((msg1) => {
-						msg1.react("776242461394862131")
+						msg1.react("📰")
 					})
 					.catch(console.error);
 			});
